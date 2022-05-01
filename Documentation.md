@@ -22,12 +22,13 @@ local Tab = Rose:CreateTab('Tab', 'rbxassetid://id', false)
 
 ## Create Button
 ```lua
-local Button = Tab:CreateButton('Button', function()
+local Button = Tab:CreateButton('Button', 'Description', function()
   print('Clicked Button')
 end)
 
 --[[
   [1] = <string> => Name of button.
-  [2] = <function> => Does something when clicked.
+  [2] = <string> => Description of button.
+  [3] = <function> => Does something when clicked.
 ]]
 ```
