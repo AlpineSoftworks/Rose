@@ -32,3 +32,20 @@ end)
   [3] = <function> => Does something when clicked.
 ]]
 ```
+
+## Create Button
+```lua
+local Button = Tab:CreateToggle('Toggle', false, function(a)
+  if a then
+    print('Toggle is on!')
+  elseif not a then
+    print('Toggle is off!')
+  end
+end)
+
+--[[
+  [1] = <string> => Name of toggle.
+  [2] = <bool> => Default mode of the toggle.
+  [3] = <function> => Does something when clicked.
+]]
+```
