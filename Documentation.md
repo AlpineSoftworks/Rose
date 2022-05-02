@@ -33,7 +33,7 @@ end)
 ]]
 ```
 
-## Create Button
+## Create Toggle
 ```lua
 local Button = Tab:CreateToggle('Toggle', false, function(a)
   if a then
@@ -47,5 +47,22 @@ end)
   [1] = <string> => Name of toggle.
   [2] = <bool> => Default mode of the toggle.
   [3] = <function> => Does something when clicked.
+]]
+```
+
+## Create Slider
+```lua
+local Toggle = Tab:Create('Slider', 0, 150, function(a)
+  print(a)
+  if a == 0 then
+    print('0 omg')
+  end
+end)
+
+--[[
+  [1] = <string> => Name of slider.
+  [2] = <number> => Minimum.
+  [3] = <number> => Maximum.
+  [4] = <function> => Does something when moved.
 ]]
 ```
