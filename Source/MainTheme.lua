@@ -977,7 +977,7 @@ function Rose:Initiate(n, p)
 							end
 						end
 						for r,t in next, TabControl:GetChildren() do
-							if t:IsA("Frame") then
+							if t:IsA("ScrollingFrame") then
 								t.Visible = false
 							end
 						end
