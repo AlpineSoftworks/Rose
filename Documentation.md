@@ -35,7 +35,7 @@ end)
 
 ## Create Toggle
 ```lua
-local Button = Tab:CreateToggle('Toggle', false, function(a)
+local Toggle = Tab:CreateToggle('Toggle', false, function(a)
   if a then
     print('Toggle is on!')
   elseif not a then
@@ -52,7 +52,7 @@ end)
 
 ## Create Slider
 ```lua
-local Toggle = Tab:Create('Slider', 0, 150, function(a)
+local Slider = Tab:Create('Slider', 0, 150, function(a)
   print(a)
   if a == 0 then
     print('0 omg')
