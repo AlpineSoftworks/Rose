@@ -796,6 +796,10 @@ function Rose:Initiate(n, p)
 		tName = tName or "Tab"
 		tID = tID or "rbxassetid://7734040271"
 		
+		if tID == "" then
+		   	tID = "rbxassetid://7734040271"
+		end
+		
 		if not isSettings then
 			local TabButton = Instance.new("Frame")
 			local Icon_2 = Instance.new("ImageLabel")
