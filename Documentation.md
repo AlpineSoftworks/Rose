@@ -1,8 +1,9 @@
 # Rose
+### ⚠ This is not the current / official documentation planned for Rose. ⚠
 
 ## Initate Rose
 ```lua
-local Rose = loadstring(game:HttpGet('https://raw.githubusercontent.com/CrytSoftware/Rose/main/Source/MainTheme.lua'))():Initate('Rose', true)
+local Rose = loadstring(game:HttpGet('https://raw.githubusercontent.com/AlpineSoftworks/Rose/main/Source/MainTheme.lua'))():Initate('Rose', true)
 --[[
   [1] = <string> => Name of script.
   [2] = <bool> => Make screengui a random string making it harder to detect.
