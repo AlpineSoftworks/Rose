@@ -1,3 +1,5 @@
+--// Not actual version, OUTDATED as of 6/4/2022
+
 local Rose = {}
 
 local tween = game:GetService("TweenService")
