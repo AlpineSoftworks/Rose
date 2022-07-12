@@ -1,4 +1,4 @@
-<h1 align="center"><img src="logo.png"><br><br>Rose Library</h1>
+<h1 align="center"><img src="Icon.png" height="50%" width="50%"><br>Rose Library</h1>
 
 ## Information
 LOL
