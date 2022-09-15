@@ -1,7 +1,7 @@
 <h1 align="center"><img src="Icon.png" height="50%" width="50%"><br>Rose Library</h1>
 
 ## Information
-LOL
+Founded on April 30th, 2022
 
 
 ## How it Works
